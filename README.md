@@ -8,6 +8,8 @@ It is a simple recursive wrapper around the [dot-object](https://github.com/rhal
 drivers do not support dot notation in key names.
 
 [![CI Build](https://github.com/thefoot/dot-object-expander/workflows/ci-build/badge.svg)](https://github.com/thefoot/dot-object-expander/actions)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/thefoot/dot-object-expander)](https://github.com/TheFoot/dot-object-expander/releases)
+[![npm (scoped)](https://img.shields.io/npm/v/@thefootonline/dot-object-expander)](https://www.npmjs.com/package/@thefootonline/dot-object-expander) 
 
 ## Installation
 
