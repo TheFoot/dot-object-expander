@@ -21,7 +21,7 @@ npm i @thefootonline/dot-object-expander --save
 
 ### NodeJS
 ```javascript
-const dotObjectExpander = require ( '../src/parser' );
+const dotObjectExpander = require ( '@thefootonline/dot-object-expander' );
 
 console.log( dotObjectExpander ( {
     string         : 'bar',
