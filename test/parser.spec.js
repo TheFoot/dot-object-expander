@@ -133,4 +133,46 @@ describe ( 'Dot Object Expander', () => {
         }
     } );
 
+    it ( 'should not throw an exception when a null object value is parsed', () => {
+        try {
+
+            const result = dotObjectExpander (
+                {
+                    'foo.bar': {
+                        val: null
+                    }
+                }
+            );
+
+            expect ( result )
+                .to
+                .be
+                .equal ( result );
+
+        } catch ( e ) {
+            expect(e).to.be.undefined;
+        }
+    } );
+
+    it ( 'should not throw an exception when an "undefined" object value is parsed', () => {
+        try {
+
+            const result = dotObjectExpander (
+                {
+                    'foo.bar': {
+                        val: undefined
+                    }
+                }
+            );
+
+            expect ( result )
+                .to
+                .be
+                .equal ( result );
+
+        } catch ( e ) {
+            expect(e).to.be.undefined;
+        }
+    } );
+
 } );
