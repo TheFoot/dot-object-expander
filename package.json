@@ -1,6 +1,6 @@
 {
     "name": "@thefoot/dot-object-expander",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A recursive object parser that expands keys with dot notation.",
     "main": "dist/parser.js",
     "module": "dist/parser.esm.js",
