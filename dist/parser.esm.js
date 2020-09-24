@@ -590,6 +590,11 @@ var dotObject = DotObject;
 
 const parseIt = obj => {
 
+    // NULL and undefined check
+    if ( [ undefined, null ].includes ( obj ) ) {
+        return obj;
+    }
+
     // Check for circular reference
     let parsed;
     try {
@@ -599,7 +604,11 @@ const parseIt = obj => {
     }
 
     // Process dotted keys at top-level
-    parsed = dotObject.object ( parsed );
+    try {
+        parsed = dotObject.object ( parsed );
+    } catch ( e ) {
+        throw new Error ( `dotObject threw a parsing error: ${ e.message }` );
+    }
 
     // Find child objects
     for ( const [ key, value ] of Object.entries ( parsed ) ) {
