@@ -1,5 +1,5 @@
 {
-    "name": "@thefootonline/dot-object-expander",
+    "name": "@thefoot/dot-object-expander",
     "version": "1.0.1",
     "description": "A recursive object parser that expands keys with dot notation.",
     "main": "dist/parser.js",

@@ -9,19 +9,19 @@ drivers do not support dot notation in key names.
 
 [![CI Build](https://github.com/thefoot/dot-object-expander/workflows/ci-build/badge.svg)](https://github.com/thefoot/dot-object-expander/actions)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/thefoot/dot-object-expander)](https://github.com/TheFoot/dot-object-expander/releases)
-[![npm (scoped)](https://img.shields.io/npm/v/@thefootonline/dot-object-expander)](https://www.npmjs.com/package/@thefootonline/dot-object-expander) 
+[![npm (scoped)](https://img.shields.io/npm/v/@thefoot/dot-object-expander)](https://www.npmjs.com/package/@thefoot/dot-object-expander) 
 
 ## Installation
 
 ~~~
-npm i @thefootonline/dot-object-expander --save
+npm i @thefoot/dot-object-expander --save
 ~~~
 
 ## Usage
 
 ### NodeJS
 ```javascript
-const dotObjectExpander = require ( '@thefootonline/dot-object-expander' );
+const dotObjectExpander = require ( '@thefoot/dot-object-expander' );
 
 console.log( dotObjectExpander ( {
     string         : 'bar',
@@ -76,7 +76,7 @@ console.log( dotObjectExpander ( {
 ### ES Module
 ES Module-aware environments such as Webpack and Rollup bundlers should automatically use the `dist/parser.esm.js` export.
 ```javascript
-import dotObjectExpander from '@thefootonline/dot-object-expander';
+import dotObjectExpander from '@thefoot/dot-object-expander';
 
 dotObjectExpander({
     'org.user.type': {
