@@ -1,3 +1,9 @@
+![status: archived](https://img.shields.io/badge/status-archived-inactive.svg)
+
+> ⚠️ **This repository is archived and no longer maintained.**
+>
+> This project is discontinued and is provided as-is, with no support or updates.
+
 # Dot Object Expander
 A small module that expands object keys with dot notation into full objects.
 
